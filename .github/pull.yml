@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: autobase-tech:main
+    mergeMethod: hardreset
+    mergeUnstable: true
